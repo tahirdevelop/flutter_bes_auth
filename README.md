@@ -2,7 +2,7 @@
 
 Plugin for simple integration with "BES" authorization.
 
-![](auth_screenshot.png?raw=true =500x500)
+![All text](auth_screenshot.png?raw=true =500x500)
 
 # Example
 
