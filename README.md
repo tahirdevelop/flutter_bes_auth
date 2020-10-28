@@ -2,7 +2,7 @@
 
 Plugin for simple integration with "BES" authorization.
 
-![All text](auth_screenshot.png =500x500)
+![](auth_screenshot.png?raw=true "IOS")
 
 # Example
 
