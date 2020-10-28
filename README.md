@@ -2,7 +2,9 @@
 
 Plugin for simple integration with "BES" authorization.
 
-![Alt text](auth_screenshot.png?raw=true "IOS")
+![](auth_screenshot.png?raw=true =500x500 "IOS")
+
+# Example
 
 ```dart
 import 'package:flutter/material.dart';
