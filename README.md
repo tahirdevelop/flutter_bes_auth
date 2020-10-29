@@ -1,10 +1,31 @@
-# flutter_bes_auth
+<h1 align="center">flutter_bes_auth</h1>
 
-Plugin for simple integration with "BES" authorization.
+<h6 align="center">
+ Plugin for simple integration with "BES" authorization.
+</h6>
 
-![](auth_screenshot.png?raw=true "IOS")
+<p align="center">
+  <img width="200" height="400" src="auth_screenshot.png">
+</p>
 
-# Example
+# Simple Auth Example
+
+```dart
+void main() async {
+  BesAuth besAuth = BesAuth(
+    serviceUrl: "YOURE",
+    redirectPath: "YOURE_REDIRECT_PATH",
+    clientId: "YOURE_CLIENT_ID",
+    clientSecret: "YOURE_CLIENT_SECRET",
+  );
+  
+  BesSession session = await besAuth.authenticate();
+
+  print(session); // {scope: "SCOPE", expires_in: "EXPIRES_IN", token_type: "TOKEN_TYPE", access_token: "ACCESS_TOKEN", refresh_token: "REFRESH_TOKEN"}
+}
+```
+
+# Flutter Example
 
 ```dart
 import 'package:flutter/material.dart';
